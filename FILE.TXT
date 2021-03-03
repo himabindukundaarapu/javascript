@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>create a new file<\title>
+//insert style.css file inside index.html
+<link rel="style sheet" type="text/css" href="style.css">
+<\head>
+body
+{
+background:pink
+}
+#frm
+{
+border:2px;
+width:25;
+border-radius:2px;
+margin:120px;
+background:white;
+padding:50px;
+}
+#btn
+{
+color:green;
+background:yellow;
+padding:7px;
+margin-left:70%;
+}
+<body>
+<h1>login<\h1>
+<form name="f1" action="authentication.php" onsubmit="return validation()" method="post"
+<p>
+<label>username!<\lable>
+<input type="text" id="user" name="user">
+<\p>
+<p>
+<label >password<\label>
+<input type="password" id="user" name="pass">
+<\p>
+<p>
+<input type="submit" id="btn" value="login">
+<\p>
+<\div>
+\\validation for empty field
+<script>
+function validation()
+{
+varid=document.f1.user.value;
+varps=document.f1.pass.value;
+if(id.length=="&&ps.length=="")
+{
+alert("user name and password fields are empty");
+return value;
+}
+else
+{
+id(id.length==" ");
+{
+alert("user name is empty");
+return value;
+}
+if(ps.length==" ")
+{
+alert("password field is empty");
+return value;
+}
+}
+}
+<\script>
+<\body>
+<\html>
